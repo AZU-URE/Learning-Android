@@ -1,0 +1,3 @@
+[submodule "Views-Example"]
+	path = Views-Example
+	url = https://github.com/AZU-URE/Views-Example.git
