@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Implict Activity</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="quote1">\"The true sign of intelligence is not knowledge but imagination.\"</string>
+    <string name="quote">Quote</string>
+    <string name="share">Share</string>
+    <string name="einstein_pic">author picture</string>
+</resources>
