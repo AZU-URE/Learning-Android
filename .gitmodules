@@ -1,3 +1,6 @@
 [submodule "Views-Example"]
 	path = Views-Example
 	url = https://github.com/AZU-URE/Views-Example.git
+[submodule "Alert-Prompt"]
+	path = Alert-Prompt
+	url = https://github.com/AZU-URE/Alert-Prompt.git
