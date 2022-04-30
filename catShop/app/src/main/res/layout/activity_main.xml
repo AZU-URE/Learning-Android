@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat_pic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffd159"
+
+        android:fontFamily="@font/aclonica"
+        android:padding="10dp"
+        android:text="CAT SHOP"
+        android:textColor="#7b5e57"
+        android:textSize="65sp"
+        android:textStyle="italic"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:fontFamily="cursive"
+        android:background="#fbc02d"
+        android:text='"You can not look at a sleeping cat and feel tense."'
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:textSize="35sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#ffd159"
+        android:text='address: lkljfugbdisbviirbjdbj'
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:background="#ffd159"
+        android:text='contact: +91xxxxxxxxxx'
+        android:paddingLeft="20dp"
+        android:paddingBottom="8dp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
