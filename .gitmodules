@@ -4,3 +4,6 @@
 [submodule "Alert-Prompt"]
 	path = Alert-Prompt
 	url = https://github.com/AZU-URE/Alert-Prompt.git
+[submodule "OnClick-LIstener-Example"]
+	path = OnClick-LIstener-Example
+	url = https://github.com/AZU-URE/OnClick-LIstener-Example.git
