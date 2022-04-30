@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <!--action bar editing start-->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/orange"/>
+
+    <!--action bar editing end-->
+
+    <!--upper section-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+<!--Team A-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="team a"
+        android:textSize="14sp"
+        android:textColor="#616161"
+        android:fontFamily="sans-serif-light"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+
+        />
+    <TextView
+        android:id="@+id/score_team_a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="56sp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="16dp"
+        />
+
+    <Button
+        android:id="@+id/button_3point_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+3 points"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="points3TeamA"
+        />
+
+    <Button
+        android:id="@+id/button_2point_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+2 points"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="points2TeamA"
+        />
+
+    <Button
+        android:id="@+id/button_free_throw_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free throw"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="points1TeamA"
+        />
+        <!--Team A closed-->
+
+    </LinearLayout>
+    <!--the gray divider-->
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="16dp"
+            />
+<!--Team B-->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="team b"
+            android:textSize="14sp"
+            android:textColor="#616161"
+            android:fontFamily="sans-serif-light"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+
+            />
+
+        <TextView
+            android:id="@+id/score_team_b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="56sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif-light"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            />
+
+        <Button
+            android:id="@+id/button_3point_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+3 points"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="points3TeamB"
+            />
+
+        <Button
+            android:id="@+id/button_2point_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+2 points"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="points2TeamB"
+            />
+
+        <Button
+            android:id="@+id/button_free_throw_b"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Free throw"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="8dp"
+            android:onClick="points1TeamB"
+            />
+        <!--Team B closed-->
+        </LinearLayout>
+        <!--upper section closed-->
+    </LinearLayout>
+    <!--bottom part-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reset"
+            android:layout_marginBottom="32dp"
+            android:onClick="reset"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+</LinearLayout>
